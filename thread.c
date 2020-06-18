@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* gcc thread.c -Wall -g3 -oO thread -lptread 
+/* gcc thread.c -Wall -g3 -oO -o thread -lptread 
  */
 #define THREAD_NUM 30
 int global_x = 10;
